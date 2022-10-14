@@ -2,23 +2,20 @@
 
 ***
 
-This repository is a companion to the following paper:
+This repository is a companion to the following paper: 
+> **XRFast and New Software Package for Processing of MA-XRF Datasets using Machine Leaning** <br>
 
-**XRFast a New Software Package for Processing of MA-XRF Datasets using Machine Leaning** 
-> *Journal of Analytical Atomic Spectrometry*, *DOI: https://doi.org/10.1039/D2JA00114D*  <br>
+*Journal of Analytical Atomic Spectrometry, (2022) 37:2130-2143, DOI: 10.1039/d2ja00114d* <br>
 
-Marc Vermeulen (1), Alicia McGeachy (1), Bingjie Xu (1), Henry Chopp (2), Aggelos Kataggelos (2), Rebecca Meyers (3), Matthias Alfeld (4), Marc Walton (5)<br>
-
+Marc Vermeulen $^{1}$, Alicia McGeachy $^{1}$, Bingjie Xu $^{1}$, Henry Chopp $^{2}$, Aggelos Kataggelos $^{2}$, Rebecca Meyers $^{3}$, Matthias Alfeld $^{4}$, and Marc Walton $^{5,a}$
 
 > 1. Northwestern University / Art Institute of Chicago Center for Scientific Studies in the Arts (NU-ACCESS), 2145 Sheridan Road, Evanston, IL, United States
 > 2. Department of ECE, Northwestern University, Evanston, IL, United States
 > 3. National Museum of Mexican Art, 1852 W. 19th street, Chicago, IL, United States
 > 4. Delft University of Technology, Department of Materials Science and Engineering (MSE), 2628 CN Delft, Netherlands.
-> 5. M+ Museum, 38 Museum Drive, West Kowloon Cultural District, Hong Kong*
+> 5. M+, 38 Museum Drive, West Kowloon Cultural District, Hong Kong <br>
 
-*corresponding author: marc.walton@mplus.org.hk 
-
-**Abstract:** *X-ray fluorescence (XRF) spectroscopy is a common technique in the field of heritage science. However, data processing and data interpretation remain a challenge as they are time consuming and often require a priori knowledge of the composition of the materials present in the analyzed objects. For this reason, we developed an open-source, unsupervised dictionary learning algorithm reducing the complexity of large datasets containing 10s of thousands of spectra and identifying patterns. The algorithm runs in Julia, a programming language that allows for faster data processing compared to Python and R. This approach quickly reduces the number of variables and creates correlated elemental maps, characteristic for pigments containing various elements or for pigment mixtures. This alternative approach creates an overcomplete dictionary which is learned from the input data itself, therefore reducing the a priori user knowledge. The feasibility of this method was first confirmed by applying it to a mock-up board containing various known pigment mixtures. The algorithm was then applied to a macro XRF (MA-XRF) data set obtained on an 18th century Mexican painting, and positively identified smalt (pigment characterized by the co-occurrence of cobalt, arsenic, bismuth, nickel, and potassium), mixtures of vermilion and lead white, and two complex conservation materials/interventions. Moreover, the algorithm identified correlated elements that were not identified using the traditional elemental maps approach without image processing. This approach proved very useful as it yielded the same conclusions as the traditional elemental maps approach followed by elemental maps comparison but with a much faster data processing time. Furthermore, no image processing or user manipulation was required to understand elemental correlation. This open-source, open-access, and thus freely available code running in a platform allowing faster processing and larger data sets represents a useful resource to understand better the pigments and mixtures used in historical paintings and their possible various conservation campaigns.*
+**Abstract:** *X-ray fluorescence (XRF) spectroscopy is a common technique in the field of heritage science. However, data processing and data interpretation remain a challenge as they are time consuming and often require a priori knowledge of the composition of the materials present in the analyzed objects. For this reason, we developed an open-source, unsupervised dictionary learning algorithm reducing the complexity of large datasets containing 10s of thousands of spectra and identifying patterns. The algorithm runs in Julia, a programming language that allows for faster data processing compared to Python and R. This approach quickly reduces the number of variables and creates correlated elemental maps, characteristic for pigments containing various elements or for pigment mixtures. This alternative approach creates an overcomplete dictionary which is learned from the input data itself, therefore reducing the a priori user knowledge. The feasibility of this method was first confirmed by applying it to a mock-up board containing various known pigment mixtures. The algorithm was then applied to a macro XRF (MA-XRF) data set obtained on an 18th century Mexican painting, and positively identified smalt (pigment characterized by the co-occurrence of cobalt, arsenic, bismuth, nickel, and potassium), mixtures of vermilion and lead white, and two complex conservation materials/interventions. Moreover, the algorithm identified correlated elements that were not identified using the traditional elemental maps approach without image processing. This approach proved very useful as it yielded the same conclusions as the traditional elemental maps approach followed by elemental maps comparison but with a much faster data processing time. Furthermore, no image processing or user manipulation was required to understand elemental correlation. This open-source, open-access, and thus freely available code running in a platform allowing faster processing and larger data sets represents a useful resource to understand better the pigments and mixtures used in historical paintings and their possible various conservation campaigns.* 
 
 ***
 
